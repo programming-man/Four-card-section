@@ -1,0 +1,6 @@
+Para solucionar o desafio prosposto, utilizei fontes externas para definir as propriedades de flexbox e css media query.
+
+Fontes:
+* Guia Flexbox - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+* CSS Grid e Flexbox - https://www.youtube.com/watch?v=x-4z_u8LcGc
+* CSS Media query - https://www.chiefofdesign.com.br/media-queries-css-introducao-a-diferentes-resolucoes-de-tela/
