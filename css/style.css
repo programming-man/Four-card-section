@@ -1,0 +1,102 @@
+/*Body*/
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: Poppins;
+  font-size: 15px;
+}
+/*Header*/
+header {
+  margin-top: 30px;
+  border: none;
+  width: 100%;
+  text-align: center;
+}
+.head1 {
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+}
+.head2 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+.head3 {
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+  margin: 0px 0px 50px;
+}
+/*Section*/
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.flex > div > h2 {
+  color: hsl(234, 12%, 34%);
+}
+.flex > div > p {
+  color: hsl(229, 6%, 66%);
+}
+/*Flexbox*/
+.super {
+  align-self: flex-end;
+  width: 340px;
+  padding: 20px;
+  margin: -90px 20px -90px 20px;
+  border-top: 5px solid black;
+  border-radius: 5px;
+  border-color: hsl(180, 62%, 55%);
+  background-color: #ffffff;
+}
+.team {
+  width: 340px;
+  padding: 20px;
+  margin: 20px;
+  border-top: 5px solid black;
+  border-radius: 5px;
+  border-color: hsl(0, 78%, 62%);
+  background-color: #ffffff;
+}
+.calc {
+  align-self: flex-end;
+  width: 340px;
+  padding: 20px;
+  margin: -90px 20px -90px 20px;
+  border-top: 5px solid black;
+  border-radius: 5px;
+  border-color: hsl(212, 86%, 64%);
+  background-color: #ffffff;
+}
+.karma {
+  width: 340px;
+  padding: 20px;
+  margin: 20px;
+  border-top: 5px solid black;
+  border-radius: 5px;
+  border-color: hsl(34, 97%, 64%);
+  background-color: #ffffff;
+}
+/*Image*/
+.flex > div > img {
+  padding-left: 265px;
+}
+/*Footer*/
+.footer {
+  text-align: center;
+  margin-top: 60px;
+}
+.footer a {
+  color: hsl(228, 45%, 44%);
+}
+/*Media */
+@media screen and (max-width: 1293px) {
+  .super {
+    align-self: center;
+    margin: 20px;
+  }
+  .calc {
+    align-self: center;
+    margin: 20px;
+  }
+}
