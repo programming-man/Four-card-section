@@ -42,18 +42,22 @@ header {
 .super {
   align-self: flex-end;
   width: 340px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px 0px hsla(234, 12%, 34%, 0.15);
   padding: 20px;
   margin: -90px 20px -90px 20px;
-  border-top: 5px solid black;
+  border-top: 5px solid;
   border-radius: 5px;
   border-color: hsl(180, 62%, 55%);
   background-color: #ffffff;
 }
 .team {
   width: 340px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px 0px hsla(234, 12%, 34%, 0.15);
   padding: 20px;
   margin: 20px;
-  border-top: 5px solid black;
+  border-top: 5px solid;
   border-radius: 5px;
   border-color: hsl(0, 78%, 62%);
   background-color: #ffffff;
@@ -61,25 +65,29 @@ header {
 .calc {
   align-self: flex-end;
   width: 340px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px 0px hsla(234, 12%, 34%, 0.15);
   padding: 20px;
   margin: -90px 20px -90px 20px;
-  border-top: 5px solid black;
+  border-top: 5px solid;
   border-radius: 5px;
   border-color: hsl(212, 86%, 64%);
   background-color: #ffffff;
 }
 .karma {
   width: 340px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px 0px hsla(234, 12%, 34%, 0.15);
   padding: 20px;
   margin: 20px;
-  border-top: 5px solid black;
+  border-top: 5px solid;
   border-radius: 5px;
   border-color: hsl(34, 97%, 64%);
   background-color: #ffffff;
 }
 /*Image*/
 .flex > div > img {
-  padding-left: 265px;
+  padding-left: 240px;
 }
 /*Footer*/
 .footer {
